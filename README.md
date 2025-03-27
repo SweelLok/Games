@@ -70,4 +70,4 @@ If you want to contribute, feel free to open a pull request or submit an issue.
 - Telegram: https://t.me/@lostongs
 
 ## Presentation 
-`https://drive.google.com/drive/folders/1wCDlWrhCkyeEg4OXQ0eUkgDFoxsUajDd?hl=uk-UA`
+https://drive.google.com/drive/folders/1wCDlWrhCkyeEg4OXQ0eUkgDFoxsUajDd?hl=uk-UA
