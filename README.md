@@ -3,11 +3,11 @@
 ## Description
 If you don't know what to play. Then here is your solution. We have created a convenient search for cool and popular games. Also, for customization lovers, we have created profile customization. Good luck, and have a good time
 
-## Team Members
+## 🧑‍🤝‍🧑 Team Members
 - **Backend**: Vadim
 - **Frontend**: Nazar
 
-## Features
+## 🌟 Features
 - User authentication (login & registration)
 - User profile with editing functionality
 - 800 000 + games
@@ -41,7 +41,7 @@ If you don't know what to play. Then here is your solution. We have created a co
 ## 🚀 Live Demo
 The application is hosted and accessible at: `http://116.203.195.165:18236
 
-## Dependencies
+## 📦 Dependencies
 Ensure you have the following dependencies installed (they are included in `requirements.txt`):
 ```txt
 Flask
