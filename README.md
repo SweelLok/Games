@@ -1,4 +1,4 @@
-# Game search helper
+# PlayStorm
 
 ## Description
 If you don't know what to play. Then here is your solution. We have created a convenient search for cool and popular games. Also, for customization lovers, we have created profile customization. Good luck, and have a good time
