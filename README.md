@@ -1,6 +1,6 @@
 # PlayStorm
 
-## Description
+## 📜 Description
 If you don't know what to play. Then here is your solution. We have created a convenient search for cool and popular games. Also, for customization lovers, we have created profile customization. Good luck, and have a good time
 
 ## 🧑‍🤝‍🧑 Team Members
@@ -13,11 +13,11 @@ If you don't know what to play. Then here is your solution. We have created a co
 - 800 000 + games
 - U can save your favorites games
 
-## Technologies Used
+## ⚔️ Technologies Used
 - **Backend**: Flask, Flask-Compress, WTForms, Requests, Flask-WTF, Flask-Session, SQLite3
 - **Frontend**: HTML, CSS, JavaScript, Bulma Framework
 
-## Installation
+## 🔨 Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/SweelLok/Games.git
@@ -55,13 +55,13 @@ Flask-wtf
 Wtforms
 ```
 
-## Usage
+## 📈 Usage
 1. Register or log in.
 2. Start searching games you want.
 3. Read more information about games.
 4. Save a game if you love it.
 
-## Contribution
+## 📝 Contribution
 If you want to contribute, feel free to open a pull request or submit an issue.
 **Our contacts**
 - Mail: ukr.vadya@gmail.com
@@ -69,5 +69,5 @@ If you want to contribute, feel free to open a pull request or submit an issue.
 - Telegram: https://t.me/Vadym7584241212332
 - Telegram: https://t.me/@lostongs
 
-## Presentation 
+## 📖 Presentation 
 https://drive.google.com/drive/folders/1wCDlWrhCkyeEg4OXQ0eUkgDFoxsUajDd?hl=uk-UA
