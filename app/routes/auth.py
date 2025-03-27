@@ -10,7 +10,7 @@ from email.mime.text import MIMEText
 
 from connection import get_db_connection
 from app import app, login_manager
-from ...config import TOKEN
+from ..config import TOKEN
 from ..models import User
 
 
@@ -232,9 +232,9 @@ def get_terms():
 @app.get("/logout/")
 def get_logout():
     logout_user()
+    logging.info(f"Log out from: {session.get("username")}")
     session.pop("user_id", None)        #? Delete Session user_id
     session.pop("username", None)        #? Delete Session username
     session.pop("gmail", None)            #? Delete Session gmail
     session.pop("password", None)          #? Delete Session password
-    logging.info(f"Log out from: {session.get("username", "Unknown user")}")
     return redirect(url_for("get_games"))

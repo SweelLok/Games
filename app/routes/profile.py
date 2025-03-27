@@ -6,7 +6,7 @@ from werkzeug.security import check_password_hash
 
 from app import app
 from connection import get_db_connection
-from ...config import RAWG_API_KEY, RAWG_BASE_URL
+from ..config import RAWG_API_KEY, RAWG_BASE_URL
 
 
 @app.get("/profile/")

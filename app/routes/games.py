@@ -6,7 +6,7 @@ from flask_login import current_user, login_required
 
 from app import app
 from connection import get_db_connection
-from ...config import RAWG_BASE_URL, RAWG_API_KEY
+from ..config import RAWG_BASE_URL, RAWG_API_KEY
 
 
 @app.get("/games_data_json/")
