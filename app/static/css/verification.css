@@ -1,0 +1,37 @@
+.hero-body {
+	background: linear-gradient(135deg, #4a6bff, #6c63ff);
+}
+.verification-card {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 2rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.fade-in {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.fade-in.is-visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.link-button {
+	background: none;
+	border: none;
+	color: #3273dc;
+	text-decoration: underline;
+	cursor: pointer;
+	font-size: inherit;
+	padding: 0;
+}
+
+.link-button:hover {
+	color: #2059b2;
+}
+
+.link-button:focus {
+	outline: none;
+}

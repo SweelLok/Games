@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="../static/css/auth.css" rel="stylesheet">
+{% endblock %}
+
+{% block title %} Login {% endblock %}
+
+{% block content %}
+    <main class="hero is-fullheight is-flex is-align-items-center is-justify-content-center">
+        <div class="box has-text-centered" style="width: 400px;">
+            <hr>
+            <h2 class="title is-4">Login</h2>
+            {% if error_message %}
+                <div class="notification is-danger">
+                    {{ error_message }}
+                </div>
+            {% endif %}
+            <form action="{{ url_for('post_login') }}" method="POST">
+                <div class="field">
+                    <div class="control">
+                        <input type="text" class="input" id="username" name="username" placeholder="Username" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input type="email" class="input" id="email" name="gmail" placeholder="adb@gmail.com" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input type="password" class="input" id="password" name="password" placeholder="*******" required>
+                    </div>
+                </div>
+                <button type="submit" class="button is-primary is-fullwidth">Login</button>
+            </form>
+            <div class="mt-4">
+                <p>Already have an account? <a href="{{ url_for('get_signup') }}" class="has-text-primary">Signup</a></p>
+            </div>
+        </div>
+    </main>
+{% endblock content %}

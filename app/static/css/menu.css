@@ -1,0 +1,57 @@
+.hero-body {
+	background: linear-gradient(135deg, #4a6bff, #6c63ff);
+}
+
+.game-card {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.fade-in {
+	opacity: 0;
+	transform: translateY(20px);
+	transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in.is-visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.semi-transparent-button {
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 2px solid rgba(255, 255, 255, 0.7);
+	color: #000;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: background-color 0.3s, border-color 0.3s;
+}
+
+.semi-transparent-button:hover {
+	background-color: rgba(255, 255, 255, 0.7);
+	border-color: rgba(255, 255, 255, 1);
+}
+
+.columns.is-multiline {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column.is-one-third {
+    display: flex;
+    flex-direction: column;
+}
+
+.card.game-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content {
+    flex: 1;
+}
