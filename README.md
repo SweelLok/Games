@@ -39,7 +39,6 @@ If you don't know what to play. Then here is your solution. We have created a co
 5. Open the browser and go to `http://127.0.0.1:18236`
 
 ## 🚀 Live Demo
-
 The application is hosted and accessible at: `http://116.203.195.165:21871/menu/`
 
 ## Dependencies
